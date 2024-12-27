@@ -103,7 +103,7 @@ internal static class HuffmanCoding
 
     public static HuffmanNodeDepthInfo[] SetNodeDepth(HuffmanNode[] huffmanTree)
     {
-        HuffmanNodeDepthInfo[] nodeDpethInfos = new HuffmanNodeDepthInfo[512];
+        HuffmanNodeDepthInfo[] nodeDpethInfos = new HuffmanNodeDepthInfo[513];
 
         int infoIndex= 0;
 

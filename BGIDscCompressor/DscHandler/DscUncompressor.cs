@@ -91,7 +91,7 @@ public sealed class DscUncompressor
 
     public byte[] Uncompress()
     {
-        HuffmanNodeDepthInfo[] nodeInfos = new HuffmanNodeDepthInfo[512];   //
+        HuffmanNodeDepthInfo[] nodeInfos = new HuffmanNodeDepthInfo[513];
         HuffmanNode[] nodes = new HuffmanNode[1023];    //the tree all nodes number has 2n-1 when leaf nodes number is n
 
         byte depth = 0;
